@@ -1,0 +1,37 @@
+# Artefatos de bytecode e cache do Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+
+# Ambientes virtuais e variáveis de ambiente
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.*
+
+# Empacotamento e editores
+*.egg-info/
+build/
+dist/
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# Dados locais usados pelo organizador
+entrada/
+saida/
+logs/
+
+# Diretório local deixado por execuções manuais; revisar antes de publicar
+/aula-06/
